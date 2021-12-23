@@ -8,7 +8,7 @@ describe("Manager", () => {
     });
   });
 
-  describe("Create a Named Manager with Name", () => {
+  describe("Create a Named Managere", () => {
     it("Creates a Named Manager", () => {
       const manager = new Manager(
         "Joey",
