@@ -1,0 +1,32 @@
+{
+  "name": "teamprofilegen",
+  "version": "1.0.0",
+  "description": "Team Profile Generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose test/*",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jparris3213/TeamProfileGen.git"
+  },
+  "keywords": [
+    "Team",
+    "Profile",
+    "Generator"
+  ],
+  "author": "Jacob Parris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jparris3213/TeamProfileGen/issues"
+  },
+  "homepage": "https://github.com/jparris3213/TeamProfileGen#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.4.5"
+  }
+}
